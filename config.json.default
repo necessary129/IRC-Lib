@@ -1,0 +1,29 @@
+{
+    "SERVER_PASSWORD": "", 
+    "SSL": true, 
+    "HOSTNAME": "ssh.myshells.com", 
+    "NICK": "slavetator", 
+    "USERHOME": "/home/", 
+    "USE_SASL": true, 
+    "configured": false, 
+    "ADMIN_CLOAKS": [
+        "owner/cloak", 
+        "admin/cloak"
+    ], 
+    "SUDOPASSWORD": "mysudopassword", 
+    "SERVER": "irc.freenode.net", 
+    "CHANNELS": "#slavetator,#slavetator-dev", 
+    "ADDRCHAR": "%", 
+    "USERNAME": "my_nickserv_username", 
+    "USING_ZNC": false, 
+    "SSHPORT": "22", 
+    "ADMIN_ACCOUNTS": [
+        "owner", 
+        "admin1", 
+        "admin2"
+    ], 
+    "PASSWORD": "my_nickserv_pass", 
+    "DEBUG_CHANNEL": "#slavetator-test", 
+    "PORT": 6697, 
+    "BUSERNAME": "bot"
+}

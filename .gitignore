@@ -4,7 +4,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+config.json
 # Distribution / packaging
 .Python
 env/
@@ -15,19 +15,21 @@ downloads/
 eggs/
 lib/
 lib64/
+logs/
 parts/
 sdist/
 var/
 *.egg-info/
 .installed.cfg
 *.egg
-
+*.db
+*.log
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
-
+*.sublime*
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
@@ -35,6 +37,7 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
+logs/*
 .coverage
 .cache
 nosetests.xml
